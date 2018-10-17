@@ -45,8 +45,8 @@ if (replicationType == "pull") {
                 replication (replicationUrl) {
                     cronExp "0 0/9 14 * * ?"
                     socketTimeoutMillis 15000
-                    username "remote-repo-user"
-                    password "pass"
+                    username "admin"
+                    password "password"
                     enableEventReplication eventBased
                     enabled true
                     syncDeletes false
@@ -64,8 +64,8 @@ if (replicationType == "pull") {
             replication(replicationUrl) {
                 cronExp "0 0/9 14 * * ?"
                 socketTimeoutMillis 15000
-                username "remote-repo-user"
-                password "pass"
+                username "admin"
+                password "password"
                 enableEventReplication eventBased
                 enabled true
                 syncDeletes false
