@@ -62,7 +62,7 @@ repoNames = userInput (
 //construct a namespace
 //team-technology-maturity-location
 //def localName = repokey + "-" + packagetype + "-" + maturity + "-" + location
-def localName = repokey
+def localName = repokey + "_" + maturity
 artifactory(art.name) {
   localRepository(localName) {
     description "Public description"
