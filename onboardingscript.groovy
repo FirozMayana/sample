@@ -81,7 +81,7 @@ artifactory(art.name) {
     }
     users {
       user(userName) {
-        email 'fmayana@visteon.com'
+        //email 'fmayana@visteon.com'
         password 'password'
         admin false
         profileUpdatable false
