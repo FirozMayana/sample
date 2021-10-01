@@ -1,4 +1,4 @@
-artifactory('Sofia') {
+artifactory('Site') {
   ldap {
   groupSettings('static_group_settings_name') {
     settings // 'ldap settings ref'
